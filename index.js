@@ -2,7 +2,7 @@ var express = require('express');
 const bodyParser = require("body-Parser");
 var MongoClient = require('mongodb').MongoClient
 var ObjectId = require('mongodb').ObjectID;
-var url = 'mongodb://localhost:27017/'
+var url = 'mongodb+srv://admin:admin@cluster0.dalfc5f.mongodb.net/test'
 var app = express();
 app.use(express.static("public"));
 app.use(express.static("images"));

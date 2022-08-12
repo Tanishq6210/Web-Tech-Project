@@ -2,33 +2,33 @@
     {
         "name" : "Burger",
         "rating" : "5",
-        "image" : "/burr.jpg",
+        "image" : "../images/burr.jpg",
         "price" : 140
     },
     {
         "name" : "Momos",
         "rating" : "5",
-        "image" : "/momos.jpg",
+        "image" : "../images/momos.jpg",
         "price" : 80
     },
     {
         "name" : "Chicken nugget",
         "rating" : "3",
-        "image" : "/nugget.jpg",
+        "image" : "../images/nugget.jpg",
         "price" : 240
     },
     
     {
         "name" : "Spring roll",
         "rating" : "3",
-        "image" : "/roll.jpg",
+        "image" : "../images/roll.jpg",
         "price" : 100
     },
 
     {
         "name" : "arrabiata pasta",
         "rating" : "5",
-        "image" : "/Arrabiata.jpg",
+        "image" : "../images/Arrabiata.jpg",
         "price" : 300
     }
 ]

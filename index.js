@@ -19,7 +19,7 @@ var userName = ""
 var userPassword = ""
 var userAddress = ""
 
-app.post("/addtocart", (req, res) => {
+app.post("/addtocart", cors(), (req, res) => {
     const body = req.body;
     console.log(body);
 

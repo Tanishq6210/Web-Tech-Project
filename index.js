@@ -1,9 +1,11 @@
 var express = require('express');
+var cors = require('cors')
 const bodyParser = require("body-Parser");
 var MongoClient = require('mongodb').MongoClient
 var ObjectId = require('mongodb').ObjectID;
 var url = 'mongodb+srv://admin:admin@cluster0.dalfc5f.mongodb.net/test'
 var app = express();
+app.use(cors());
 app.use(express.static("public"));
 app.use(express.static("images"));
 
